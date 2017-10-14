@@ -309,5 +309,135 @@ var films = [
     genre : ["", "", "", "", ""],
     rating : 5
   },
+  {
+    name : "Il bisbetico domato",
+    year : 1980,
+    director : "",
+    screenwriter : "",
+    country : "",
+    actor : ["", "", "", "", ""],
+    genre : ["", "", "", "", ""],
+    rating : 5
+  },
+  {
+    name : "Орда",
+    year : 2011,
+    director : "",
+    screenwriter : "",
+    country : "",
+    actor : ["", "", "", "", ""],
+    genre : ["", "", "", "", ""],
+    rating : 5
+  },
+  {
+    name : "Cloud Atlas",
+    year : 2012,
+    director : "",
+    screenwriter : "",
+    country : "",
+    actor : ["", "", "", "", ""],
+    genre : ["", "", "", "", ""],
+    rating : 5
+  },
+  {
+    name : "Mama",
+    year : 2013,
+    director : "",
+    screenwriter : "",
+    country : "",
+    actor : ["", "", "", "", ""],
+    genre : ["", "", "", "", ""],
+    rating : 5
+  },
+  {
+    name : "The Birdcage",
+    year : 1996,
+    director : "",
+    screenwriter : "",
+    country : "",
+    actor : ["", "", "", "", ""],
+    genre : ["", "", "", "", ""],
+    rating : 5
+  },
+  {
+    name : "La migliore offerta",
+    year : 2012,
+    director : "",
+    screenwriter : "",
+    country : "",
+    actor : ["", "", "", "", ""],
+    genre : ["", "", "", "", ""],
+    rating : 5
+  },
+  {
+    name : "The Silence of the Lambs",
+    year : 1990,
+    director : "",
+    screenwriter : "",
+    country : "",
+    actor : ["", "", "", "", ""],
+    genre : ["", "", "", "", ""],
+    rating : 5
+  },
+  {
+    name : "Hannibal",
+    year : 2001,
+    director : "",
+    screenwriter : "",
+    country : "",
+    actor : ["", "", "", "", ""],
+    genre : ["", "", "", "", ""],
+    rating : 5
+  },
+  {
+    name : "Red Dragon",
+    year : 2002,
+    director : "",
+    screenwriter : "",
+    country : "",
+    actor : ["", "", "", "", ""],
+    genre : ["", "", "", "", ""],
+    rating : 5
+  },
+  {
+    name : "A Serious Man",
+    year : 2009,
+    director : "",
+    screenwriter : "",
+    country : "",
+    actor : ["", "", "", "", ""],
+    genre : ["", "", "", "", ""],
+    rating : 5
+  },
+  {
+    name : "The Grand Budapest Hotel",
+    year : 2014,
+    director : "",
+    screenwriter : "",
+    country : "",
+    actor : ["", "", "", "", ""],
+    genre : ["", "", "", "", ""],
+    rating : 5
+  },
+  {
+    name : "Colombiana",
+    year : 2011,
+    director : "",
+    screenwriter : "",
+    country : "",
+    actor : ["", "", "", "", ""],
+    genre : ["", "", "", "", ""],
+    rating : 1
+  },
+  {
+    name : "Transcendence",
+    year : 2014,
+    director : "",
+    screenwriter : "",
+    country : "",
+    actor : ["", "", "", "", ""],
+    genre : ["", "", "", "", ""],
+    rating : 2
+  }
   
 ];
