@@ -9,7 +9,7 @@ h2 {
       url(../img/ico-sample.svg),
       url(../img/ico-sample.svg),
       url(../img/ico-sample.svg);
-    background-repeat: no-repeat, 
+  background-repeat: no-repeat, 
         no-repeat,
         no-repeat,
         no-repeat,
@@ -27,14 +27,44 @@ h2 {
       url(../img/ico-sample.svg),
       url(../img/ico-sample.svg),
       url(../img/ico-sample.svg);
-    background-repeat: no-repeat, 
+  background-repeat: no-repeat, 
         no-repeat,
         no-repeat,
         no-repeat;
   background-size: 25px 25px;
-  background-position: 100% center, 
-      93% center,
+  background-position: 93% center, 
       86% center,
-      79% center;
+      79% center,
+      72% center;
+}
+
+.stars3 {
+  background: url(../img/ico-sample.svg),
+      url(../img/ico-sample.svg),
+      url(../img/ico-sample.svg);
+  background-repeat: no-repeat, 
+        no-repeat,
+        no-repeat;
+  background-size: 25px 25px;
+  background-position: 86% center, 
+      79% center,
+      72% center;
+}
+
+.stars2 {
+  background: url(../img/ico-sample.svg),
+      url(../img/ico-sample.svg);
+  background-repeat: no-repeat, 
+        no-repeat;
+  background-size: 25px 25px;
+  background-position: 79% center, 
+      72% center;
+}
+
+.stars1 {
+  background: url(../img/ico-sample.svg);
+  background-repeat: no-repeat;
+  background-size: 25px 25px;
+  background-position: 72% center;
 }
 
