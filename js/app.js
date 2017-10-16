@@ -27,22 +27,6 @@ function getHtml (myArray) {
   return listHtml;
 }
 
-//for ( var i = 0 ; i < films.length; ++i ) {
-//  
-//  if ( films[i].rating === 5 ) {
-//    filmRating = 'stars5';
-//  } else if ( films[i].rating === 4 ) {
-//    filmRating = 'stars4';
-//  } else if ( films[i].rating === 3 ) {
-//    filmRating = 'stars3';
-//  } else if ( films[i].rating === 2 ) {
-//    filmRating = 'stars2';
-//  } else if ( films[i].rating === 1 ) {
-//    filmRating = 'stars1';
-//  }
-//  
-//  listHtml += '<h2 class="' + filmRating + '">' + films[i].name + '</h2>';
-//}
 
 getHtml(films);
 
@@ -51,11 +35,19 @@ $('#films-list').append(listHtml);
 
 function getRatedFilms () {
   ratedFilms = [];
-  for ( var i = 0 ; i < films.length; ++i ) {
-    if (films[i].rating === parseInt($selectedStars)) {
+  if ( parseInt($selectedStars) === 6 ) {
+    for ( var i = 0 ; i < films.length; ++i ) {
       ratedFilms.push(films[i]);
-    } 
+    }
+  } else {
+    
+    for ( var i = 0 ; i < films.length; ++i ) {
+      if (films[i].rating === parseInt($selectedStars)) {
+        ratedFilms.push(films[i]);
+      } 
+    }
   }
+  
   
 }
 
