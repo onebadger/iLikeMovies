@@ -11,20 +11,22 @@
     <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
   </head>
   <body>
-    <h1>i like movies</h1>
-    <select>
-      <option selected value="6">all films</option>
-      <option value="1">1+ star</option>
-      <option value="2">2+ stars</option>
-      <option value="3">3+ stars</option>
-      <option value="4">4+ stars</option>
-      <option value="5">5 stars</option>
-    </select>
-    <p>по оценке <a href="#">Барcука</a></p>
-    <div id="films-list">
-      <!-- js films list goes here -->
+    <div class="wrapper">
+      <h1>i like movies</h1>
+      <select>
+        <option selected value="6">all films</option>
+        <option value="1">1 star</option>
+        <option value="2">2 stars</option>
+        <option value="3">3 stars</option>
+        <option value="4">4 stars</option>
+        <option value="5">5 stars</option>
+      </select>
+      <p>at <a target="_blank" href="http://badger.one/">Badger's</a> rating</p>
+      <div id="films-list">
+        <!-- js films list goes here -->
+      </div>
+      <script src="js/films.js"></script>
+      <script src="js/app.js"></script>
     </div>
-    <script src="js/films.js"></script>
-    <script src="js/app.js"></script>
   </body>
 </html>
