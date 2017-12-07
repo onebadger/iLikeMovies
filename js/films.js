@@ -440,16 +440,6 @@ var films = [
     rating : 2
   },
   {
-    name : "The Grand Budapest Hotel",
-    year : 2014,
-    director : "",
-    screenwriter : "",
-    country : "",
-    actor : ["", "", "", "", ""],
-    genre : ["", "", "", "", ""],
-    rating : 5
-  },
-  {
     name : "As Good as It Gets",
     year : 1997,
     director : "",
